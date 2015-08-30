@@ -9,7 +9,15 @@
 <body>
   <header>
     <div class="col-xs-12 top-header">
-      <h1>Welome to the Coffee Show!</h1>
+      <h1>Welome to the Coffee Show!</h1><br>
+      <ul style="text-decoration: none;">
+      <% if user_signed_in? %>
+        <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
+        <% else %>
+        <li><%= link_to 'Sign in', new_user_session_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <%= link_to 'Sign up', new_user_registration_path %></li>
+        <% end %>
+      </ul>
     </div>
   </header>
 
