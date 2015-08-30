@@ -1,0 +1,43 @@
+@font-face {
+   font-family: 'caviar_dreamsregular';
+   src: url('../assets/fonts/CaviarDreams-webfont.eot');
+   src: url('../assets/fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/CaviarDreams-webfont.woff') format('woff'),
+        url('../assets/fonts/fonts/CaviarDreams-webfont.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.top-header{
+  background-color: #000000;
+  height: 140px;
+  color: white;
+}
+
+h1 {
+    font-family: 'caviar_dreamsregular';
+    margin-left: 360px;
+    margin-top: 47px;
+}
+
+.macchiato{
+  position: absolute;
+  margin-left: -1168px;
+  margin-top: 0px;
+}
+
+.coffeeframe{
+  height: 520px;
+  background-color: #FFDA8C;
+}
+
+.drink-name{
+  margin-top: 27px;
+  font-family: 'artifikamedium';
+  line-height: 2em;
+}
